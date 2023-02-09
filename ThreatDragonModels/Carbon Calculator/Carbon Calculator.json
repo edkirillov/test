@@ -52,26 +52,27 @@
               "angle": 0,
               "id": "a8822e09-bdf8-492e-8833-43d5c408b81a",
               "z": 3,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
-                  "severity": "Medium",
+                  "status": "Mitigated",
+                  "severity": "High",
                   "modelType": "STRIDE",
                   "type": "Tampering",
                   "title": "test",
                   "threatId": "d0ed54be-cd5d-4723-9df0-e5c2b96dc34c"
                 }
               ],
+              "isWebApplication": true,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "process 2"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
